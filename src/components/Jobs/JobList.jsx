@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const JobList = ({job}) => {
     const [showFullText, setFullText] = useState(true);
     let description = job.description;
-    if(!showFullText) {
+    if(showFullText) {
         description = description.substring(0,90) + '...';
     }
 
@@ -18,7 +18,7 @@ const JobList = ({job}) => {
 
             <div className="mb-5">{description}</div>
             <button onClick={()=>setFullText((prevState)=>(!prevState))} className="text indigo-5 mb-5 hover:text-indigo-600">
-                {showFullText ? 'less' : 'more'}
+                {showFullText ? 'more' : 'less'}
             </button>
                 <h3 className="text-indigo-500 mb-2">{job.salary} / Year</h3>
             <div className="border border-gray-100 mb-5"></div>
