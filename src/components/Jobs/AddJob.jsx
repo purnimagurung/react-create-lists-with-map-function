@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
-import { addJob } from '../../apiJob/AddNewJob';
+import { addJob } from '../../api/jobApi/AddNewJob';
 
 const AddJobPage = () => {
   // State object to hold all form fields

@@ -1,21 +1,20 @@
 {
   "jobs": [
     {
-      "id": "1",
-      "title": "Senior React Developer",
+      "title": "Anju React Developer",
       "type": "Full-Time",
-      "description": "We are seeking a talented Front-End Developer to join our team in Boston, MA. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience working with modern JavaScript frameworks such as React or Angular.",
       "location": "Boston, MA",
+      "description": "Entwickle unser digitales Produkt: Du bist verantwortlich für die Entwicklung, Erweiterung und Optimierung unserer Front-End-Lösung, um eine integrierte und inspirierende Front-End-Lösung zu entwickeln.\nTausche dich aus: Du arbeitest eng mit unseren UX/UI-Designern/Innen zusammen, um Designvorschläge umzusetzen. Außerdem arbeitest du eng mit unserem Back-End-Entwicklerteam zusammen, um die APIs unseres Systems zu verstehen und diese reibungslos in das Front-End einzubinden.\nNutze die modernsten Praktiken: Du stellst sicher, dass die Umsetzung der Designvorschläge den neuesten Entwicklungspraktiken und -standards entspricht, und dokumentierst spezifische Codepakete umfassend.\nTeste unsere Lösung: Du erstellst sowohl Unit- als auch Integrationstests für die geschriebenen Komponenten und stellst somit eine hohe Qualität deiner Arbeit sicher.\nArbeite in kurzen Iterationen: Du nutzt agile Arbeitsmethoden, um deine Lösung gemeinsam mit dem gesamten Entwicklerteam abzustimmen und in kurzen Iterationen weiterzuentwickeln.",
       "salary": "$70K - $80K",
       "company": {
         "name": "NewTek Solutions",
         "description": "NewTek Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
         "contactEmail": "contact@teksolutions.com",
         "contactPhone": "555-555-5555"
-      }
+      },
+      "id": "1"
     },
     {
-      "id": "2",
       "title": "Front-End Engineer (React & Redux)",
       "type": "Full-Time",
       "location": "Miami, FL",
@@ -23,10 +22,11 @@
       "salary": "$70K - $80K",
       "company": {
         "name": "Veneer Solutions",
-        "description": "Veneer Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
+        "description": "import axios from 'axios';",
         "contactEmail": "contact@loremipsum.com",
         "contactPhone": "555-555-5555"
-      }
+      },
+      "id": "2"
     },
     {
       "id": "5",
@@ -97,6 +97,20 @@
         "companyEmail": "grg.puru@gmail.com",
         "companyPhone": "015560079419"
       }
+    },
+    {
+      "title": "oyuouio",
+      "type": "Full-Time",
+      "location": "uiouiouio",
+      "description": "uioyuouiouio",
+      "salary": "Under $50K",
+      "company": {
+        "name": "iouiouiouio",
+        "description": "Entwickle unser digitales Produkt: Du bist verantwortlich für die Entwicklung, Erweiterung und Optimierung unserer Front-End-Lösung, um eine integrierte und inspirierende Front-End-Lösung zu entwickeln.\n",
+        "contactEmail": "grg.puru@gmail.com",
+        "contactPhone": "015906435310"
+      },
+      "id": "70da"
     }
   ]
 }

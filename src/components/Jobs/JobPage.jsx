@@ -3,7 +3,7 @@ import { FaArrowLeft, FaMapMarker } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import axios from 'axios';
-import { deleteJob } from "../../apiJob/DeleteJob";
+import { deleteJob } from "../../api/jobApi/DeleteJob";
 
 const fetchJobById = async (id) => {
   const res = await axios.get(`/api/jobs/${id}`);

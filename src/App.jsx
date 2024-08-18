@@ -8,7 +8,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import JobPage from "./components/Jobs/JobPage";
-// import EditJobPage from "./components/Jobs/EditJobPage";
+import EditJobPage from "./components/Jobs/EditJobPage";
 
 const queryClient = new QueryClient();
 
@@ -20,7 +20,7 @@ const App = () => {
         <Route path='/add-job' element={<AddJob />} />
         <Route path='/jobs' element={<JobListings />} />
         <Route path='/jobs/:id' element={<JobPage />} />
-        {/* <Route path='/edit-job/:id' element={<EditJobPage />} /> */}
+        <Route path='/edit-job/:id' element={<EditJobPage />} />
         <Route path='*' element={<NotFoundPage />} />
       </Route>
     )
